@@ -8,12 +8,19 @@ function Container() {
     const {theme} = useContext(ThemeContext);
     return (
         <div className={`theme__mode ${theme === 'darkTheme' ? theme : 'lightTheme'}`}>
-          <Header/>
-          <hr/>
-          <Main/>
-          <hr/>
-          <Footer/>
-          <hr/>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col col-12">
+                <Header/>
+              </div>
+              <div className="col col-12">
+                <Main/>
+              </div>
+              <div className="col col-12">
+                <Footer/>
+              </div>
+            </div>
+          </div>
           <Button/>
         </div>
     );

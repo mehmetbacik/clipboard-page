@@ -4,7 +4,7 @@ import ThemeContext from '../context/ThemeContext';
 function Footer() {
     const {theme, setTheme} = useContext(ThemeContext);
     return (
-        <div>
+        <div id="footer">
             <p>Footer Active Theme: {theme}</p>
             <button onClick={() => setTheme(theme === 'lightTheme' ? 'darkTheme' : 'lightTheme')}>Change Theme</button>
         </div>

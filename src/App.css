@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap');
+
+:root {
+  --theme-font: 'Bai Jamjuree', sans-serif;
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+
+body {
+  min-height: 100vh;
+  font-size: 18px;
+  font-family: var(--theme-font);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
   height: 100vh;
@@ -13,6 +34,13 @@
 }
 
 .theme__mode.lightTheme {
-  background-color: #0A5;
+  background-color: #fff;
   color: #000;
+}
+
+.theme__mode.lightTheme #header {
+  background-image: url(/src/img/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
