@@ -24,23 +24,24 @@ html, body {
   height: 100vh;
 }
 
-.theme__mode {
+.theme__clipboard {
   height: 100vh;
 }
 
-.theme__mode.darkTheme {
-  background-color: #000;
-  color: #fff;
-}
-
-.theme__mode.lightTheme {
-  background-color: #fff;
-  color: #000;
-}
-
-.theme__mode.lightTheme #header {
-  background-image: url(/src/img/bg-header-desktop.png);
+.theme__clipboard #header {
+  background-image: url(../public/img/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
+.theme__clipboard.darkTheme {
+  background-color: #000;
+  color: #fff;
+}
+
+.theme__clipboard.lightTheme {
+  background-color: #fff;
+  color: #000;
+}
+
