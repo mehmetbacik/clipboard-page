@@ -2,6 +2,8 @@
 
 :root {
   --theme-font: 'Bai Jamjuree', sans-serif;
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
   --strong-cyan: hsl(171, 66%, 44%);
   --light-blue: hsl(233, 100%, 69%);
   --dark-grayish-blue: hsl(210, 10%, 33%);
@@ -21,11 +23,11 @@ html, body {
 
 .App {
   text-align: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .theme__clipboard {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .theme__clipboard #header {
@@ -35,13 +37,119 @@ html, body {
   background-position: center;
 }
 
+.theme__clipboard #header .header__content .img {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.theme__clipboard #header .header__content .headline span {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.theme__clipboard.lightTheme #header .header__content .headline span {
+  color: var(--dark-grayish-blue);
+}
+
+.theme__clipboard.darkTheme #header .header__content .headline span {
+  color: var(--white);
+}
+
+.theme__clipboard #header .header__content .headline p {
+  margin-top: 16px;
+}
+
+.theme__clipboard.lightTheme #header .header__content .headline p {
+  color: var(--grayish-blue);
+}
+
+.theme__clipboard.darkTheme #header .header__content .headline p {
+  color: var(--white);
+}
+
+.theme__clipboard #header .header__content .download {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.theme__clipboard #header .header__content .download .btn.btn-success {
+  background-color: var(--strong-cyan);
+  border-color: var(--strong-cyan);
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.theme__clipboard #header .header__content .download .btn.btn-primary {
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.theme__clipboard #header .theme__select {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.theme__clipboard #header .theme__select .btn.btn-danger{
+  border-radius: 100%;
+  padding: 0;
+}
+
+.theme__clipboard #header .theme__select .theme-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.theme__clipboard.lightTheme #header .theme__select .theme-icon:before {
+  content: url(../public/img/moon_icon.png);
+}
+
+.theme__clipboard.darkTheme #header .theme__select .theme-icon:before {
+  content: url(../public/img/sun_icon.png);
+}
+
 .theme__clipboard.darkTheme {
-  background-color: #000;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .theme__clipboard.lightTheme {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 
+br.small {
+  display: none;
+}
+
+br.large {
+  display: block;
+}
+
+@media (min-width: 1200px) {  
+
+}
+
+@media (max-width: 991px) { 
+    br.large {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) { 
+    br.small {
+        display: block;
+    }
+    br.large {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) { 
+
+}

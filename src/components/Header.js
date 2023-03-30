@@ -13,16 +13,16 @@ function Header() {
                         </div>
                         <div className="headline">
                             <span>A history of everything you copy</span>
-                            <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+                            <p>Clipboard allows you to track and organize everything you copy. Instantly <br class="large" />access your clipboard on all your devices.</p>
                         </div>
                         <div className="download">
                             <button className="btn btn-success">Download for IOS</button>
                             <button className="btn btn-primary">Download for Mac</button>
                         </div>
                     </div>
-                    <div className="col col-12 text-center">
-                        <p>Header Active Theme: {theme}</p>
-                        <button onClick={() => setTheme(theme === 'lightTheme' ? 'darkTheme' : 'lightTheme')}>Change Theme</button>
+                    <div className="col col-12 theme__select">
+                        <p className="d-none">Active Theme: {theme}</p>
+                        <button className="btn btn-danger" onClick={() => setTheme(theme === 'lightTheme' ? 'darkTheme' : 'lightTheme')}><i className="theme-icon"/></button>
                     </div>
                 </div>
             </div>

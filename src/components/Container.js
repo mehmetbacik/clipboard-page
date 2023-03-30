@@ -10,7 +10,7 @@ function Container() {
         <div className={`theme__clipboard ${theme === 'darkTheme' ? theme : 'lightTheme'}`}>
           <div className="container-fluid">
             <div className="row">
-              <div className="col col-12">
+              <div className="col col-12 p-0">
                 <Header/>
               </div>
               <div className="col col-12">
