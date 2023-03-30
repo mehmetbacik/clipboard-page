@@ -13,7 +13,7 @@ function Header() {
                         </div>
                         <div className="headline">
                             <span>A history of everything you copy</span>
-                            <p>Clipboard allows you to track and organize everything you copy. Instantly <br class="large" />access your clipboard on all your devices.</p>
+                            <p>Clipboard allows you to track and organize everything you copy. Instantly <br className="large" />access your clipboard on all your devices.</p>
                         </div>
                         <div className="download">
                             <button className="btn btn-success">Download for IOS</button>
