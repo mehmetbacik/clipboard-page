@@ -124,7 +124,7 @@ html, body {
 /*Header*/
 
 /*Main*/
-.theme__clipboard #main {
+.theme__clipboard #main .keep__snippets {
   margin-top: 50px;
 }
 
@@ -202,6 +202,47 @@ html, body {
 
 .theme__clipboard.darkTheme #main .keep__snippets .content .text .text-child p {
   color: var(--white);
+}
+
+.theme__clipboard #main .access__clipboard {
+  margin-top: 90px;
+}
+
+.theme__clipboard #main .access__clipboard .headline {
+  text-align: center;
+}
+
+.theme__clipboard #main .access__clipboard .headline span {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .access__clipboard .headline span {
+  color: var(--dark-grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .access__clipboard .headline span {
+  color: var(--white);
+}
+
+.theme__clipboard #main .access__clipboard .headline p {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .access__clipboard .headline p {
+  color: var(--grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .access__clipboard .headline p {
+  color: var(--white);
+}
+
+.theme__clipboard #main .access__clipboard .content {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 /*Main*/
