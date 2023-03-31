@@ -1,8 +1,6 @@
-import {useContext} from "react";
-import ThemeContext from '../context/ThemeContext';
+import React from "react";
 
 function Main() {
-    const {theme, setTheme} = useContext(ThemeContext);
     return (
         <div id="main">
             <div className="container-fluid">
@@ -73,9 +71,32 @@ function Main() {
                             </div>
                         </div>
                     </div>
-                    <div className="col col-12 theme__select">
-                        <p className="d-none">Active Theme: {theme}</p>
-                        <button className="btn btn-danger" onClick={() => setTheme(theme === 'lightTheme' ? 'darkTheme' : 'lightTheme')}><i className="theme-icon"/></button>
+                    <div className="col col-12 brands">
+                        <div className="brand-content">
+                            <img src="img/logo-google.png" alt="img" />
+                        </div>
+                        <div className="brand-content">
+                            <img src="img/logo-ibm.png" alt="img" />
+                        </div>
+                        <div className="brand-content">
+                            <img src="img/logo-microsoft.png" alt="img" />
+                        </div>
+                        <div className="brand-content">
+                            <img src="img/logo-hp.png" alt="img" />
+                        </div>
+                        <div className="brand-content">
+                            <img src="img/logo-vector-graphics.png" alt="img" />
+                        </div>
+                    </div>
+                    <div className="col col-12 download">
+                        <div className="headline">
+                            <span>Clipboard for iOS and Mac OS</span>
+                            <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and <br className="large" />you're ready to start adding to your clipboard.</p>
+                        </div>
+                        <div className="download-btns">
+                            <button className="btn btn-success">Download for IOS</button>
+                            <button className="btn btn-primary">Download for Mac</button>
+                        </div>
                     </div>
                 </div>
             </div>

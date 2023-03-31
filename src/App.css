@@ -79,6 +79,7 @@ html, body {
   border-color: var(--strong-cyan);
   border-radius: 30px;
   font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .theme__clipboard #header .header__content .download .btn.btn-primary {
@@ -86,6 +87,7 @@ html, body {
   border-color: var(--light-blue);
   border-radius: 30px;
   font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .theme__clipboard #header .theme__select {
