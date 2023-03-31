@@ -30,6 +30,11 @@ html, body {
   min-height: 100vh;
 }
 
+.theme__clipboard img {
+  max-width: 100%;
+}
+
+/*Header*/
 .theme__clipboard #header {
   background-image: url(../public/img/bg-header-desktop.png);
   background-repeat: no-repeat;
@@ -80,6 +85,7 @@ html, body {
   border-radius: 30px;
   font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px 30px;
 }
 
 .theme__clipboard #header .header__content .download .btn.btn-primary {
@@ -88,6 +94,7 @@ html, body {
   border-radius: 30px;
   font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px 30px;
 }
 
 .theme__clipboard #header .theme__select {
@@ -114,6 +121,90 @@ html, body {
 .theme__clipboard.darkTheme #header .theme__select .theme-icon:before {
   content: url(../public/img/sun_icon.png);
 }
+/*Header*/
+
+/*Main*/
+.theme__clipboard #main {
+  margin-top: 50px;
+}
+
+.theme__clipboard #main .keep__snippets .headline {
+  text-align: center;
+}
+
+.theme__clipboard #main .keep__snippets .headline span {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .keep__snippets .headline span {
+  color: var(--dark-grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .keep__snippets .headline span {
+  color: var(--white);
+}
+
+.theme__clipboard #main .keep__snippets .headline p {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .keep__snippets .headline p {
+  color: var(--grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .keep__snippets .headline p {
+  color: var(--white);
+}
+
+.theme__clipboard #main .keep__snippets .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.theme__clipboard #main .keep__snippets .content .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35px;
+  text-align: start;
+}
+
+.theme__clipboard #main .keep__snippets .content .text .text-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.theme__clipboard #main .keep__snippets .content .text .text-child span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.theme__clipboard.lightTheme #main .keep__snippets .content .text .text-child span {
+  color: var(--dark-grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .keep__snippets .content .text .text-child span {
+  color: var(--white);
+}
+
+.theme__clipboard.lightTheme #main .keep__snippets .content .text .text-child p {
+  color: var(--grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .keep__snippets .content .text .text-child p {
+  color: var(--white);
+}
+
+/*Main*/
 
 .theme__clipboard.darkTheme {
   background-color: var(--black);

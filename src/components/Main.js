@@ -18,17 +18,17 @@ function Main() {
                                 <img src="img/image-computer.png" alt="img" />
                             </div>
                             <div className="text">
-                                <div>
+                                <div className="text-child">
                                     <span>Quick Search</span>
-                                    <p>Easily search your snippets by content, category, web adress, application, and more.</p>
+                                    <p>Easily search your snippets by content, <br className="large" />category, web adress, application, and more.</p>
                                 </div>
-                                <div>
+                                <div className="text-child">
                                     <span>iCloud Sync</span>
-                                    <p>Instantly saves and syncs snippets across all your devices.</p>
+                                    <p>Instantly saves and syncs snippets across all <br className="large" />your devices.</p>
                                 </div>
-                                <div>
+                                <div className="text-child">
                                     <span>Complete History</span>
-                                    <p>Retrieve any snippets from the first moment you started using the app.</p>
+                                    <p>Retrieve any snippets from the first moment <br className="large" />you started using the app.</p>
                                 </div>
                             </div>
                         </div>
