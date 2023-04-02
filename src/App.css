@@ -296,6 +296,48 @@ html, body {
   justify-content: center;
 }
 
+.theme__clipboard #main .supercharge__workflow .content .detail .detail-child img {
+  margin-bottom: 30px;
+}
+
+.theme__clipboard #main .supercharge__workflow .content .detail .detail-child span {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .supercharge__workflow .content .detail .detail-child span {
+  color: var(--dark-grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .supercharge__workflow .content .detail .detail-child span {
+  color: var(--white);
+}
+
+.theme__clipboard #main .supercharge__workflow .content .detail .detail-child p {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .supercharge__workflow .content .detail .detail-child p {
+  color: var(--grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .supercharge__workflow .content .detail .detail-child p {
+  color: var(--white);
+}
+
+.theme__clipboard #main .brands {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.theme__clipboard #main .download {
+  margin-top: 150px;
+}
+
 /*Main*/
 
 .theme__clipboard.darkTheme {
