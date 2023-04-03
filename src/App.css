@@ -297,6 +297,10 @@ html, body {
   justify-content: center;
 }
 
+.theme__clipboard.darkTheme #main .supercharge__workflow .content .detail .detail-child img {
+  filter: brightness(0) invert(1);
+}
+
 .theme__clipboard #main .supercharge__workflow .content .detail .detail-child img {
   margin-bottom: 30px;
 }
@@ -333,6 +337,10 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.theme__clipboard.darkTheme #main .brands .brand-content img {
+  filter: brightness(0) invert(1);
 }
 
 .theme__clipboard #main .download {
@@ -445,6 +453,10 @@ html, body {
 
 .theme__clipboard #footer .social .social-child {
   cursor: pointer;
+}
+
+.theme__clipboard.darkTheme #footer .social .social-child img {
+  filter: brightness(0) invert(1);
 }
 
 
