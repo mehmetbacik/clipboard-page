@@ -1,21 +1,25 @@
-import {useContext} from "react";
-import ThemeContext from '../context/ThemeContext';
+import React from "react";
 
 function Footer() {
-    const {theme, setTheme} = useContext(ThemeContext);
     return (
         <div id="footer">
             <div className="container-fluid">
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col col-12 col-lg-3">
                         <div className="img">
                             <img src="img/logo.svg" alt="logo" />
                         </div>
                     </div>
-                    <div className="col col-12 col-lg-6">
-                        Menü
+                    <div className="col col-12 col-lg-4">
+                        <div className="menu">
+                            <span>FAQs</span>
+                            <span>Privacy Policy</span>
+                            <span>Install Guide</span>
+                            <span>Contact Us</span>
+                            <span>Press Kit</span>
+                        </div>
                     </div>
-                    <div className="col col-12 col-lg-3">
+                    <div className="col col-12 col-lg-5">
                         <div className="social">
                             <div className="social-child">
                                 <img src="img/icon-facebook.svg" alt="fb" />
@@ -30,8 +34,6 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <p>Footer Active Theme: {theme}</p>
-            <button onClick={() => setTheme(theme === 'lightTheme' ? 'darkTheme' : 'lightTheme')}>Change Theme</button>
         </div>
     );
 }

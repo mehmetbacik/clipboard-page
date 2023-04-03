@@ -416,6 +416,38 @@ html, body {
   border-top: solid 1px var(--white);
 }
 
+.theme__clipboard #footer .img img {
+  width: 60px;
+}
+
+.theme__clipboard #footer .menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 15px;
+}
+
+.theme__clipboard #footer .menu span {
+  text-align: left;
+  cursor: pointer;
+}
+
+.theme__clipboard #footer .menu span:hover {
+  color: var(--strong-cyan);
+}
+
+.theme__clipboard #footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.theme__clipboard #footer .social .social-child {
+  cursor: pointer;
+}
+
+
 /*Footer*/
 
 .theme__clipboard.darkTheme {
