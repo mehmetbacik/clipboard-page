@@ -336,6 +336,63 @@ html, body {
 
 .theme__clipboard #main .download {
   margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.theme__clipboard #main .download .headline {
+  text-align: center;
+}
+
+.theme__clipboard #main .download .headline span {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .download .headline span {
+  color: var(--dark-grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .download .headline span {
+  color: var(--white);
+}
+
+.theme__clipboard #main .download .headline p {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.theme__clipboard.lightTheme #main .download .headline p {
+  color: var(--grayish-blue);
+}
+
+.theme__clipboard.darkTheme #main .download .headline p {
+  color: var(--white);
+}
+
+.theme__clipboard #main .download .download-btns {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.theme__clipboard #main .download .download-btns .btn.btn-success {
+  background-color: var(--strong-cyan);
+  border-color: var(--strong-cyan);
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px 30px;
+}
+
+.theme__clipboard #main .download .download-btns .btn.btn-primary {
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 10px 30px;
 }
 
 /*Main*/
