@@ -13,10 +13,10 @@ function Container() {
               <div className="col col-12 p-0">
                 <Header/>
               </div>
-              <div className="col col-12">
+              <div className="col col-12 p-0">
                 <Main/>
               </div>
-              <div className="col col-12">
+              <div className="col col-12 p-0">
                 <Footer/>
               </div>
             </div>
