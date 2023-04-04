@@ -12,7 +12,7 @@ function Header() {
                             <img src="img/logo.svg" alt="logo" />
                         </div>
                         <div className="headline">
-                            <span>A history of everything you copy</span>
+                            <span>A history of <br className="small" />everything you copy</span>
                             <p>Clipboard allows you to track and organize everything you copy. Instantly <br className="large" />access your clipboard on all your devices.</p>
                         </div>
                         <div className="download">

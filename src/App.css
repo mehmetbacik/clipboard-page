@@ -512,6 +512,86 @@ br.large {
 }
 
 @media (max-width: 768px) { 
+    .theme__clipboard #header .header__content .headline span {
+      font-size: 28px;
+    }
+
+    .theme__clipboard #header .header__content .headline p {
+      font-size: 15px;
+    }
+
+    .theme__clipboard #header .header__content .download {
+      flex-direction: column;
+    }
+
+    .theme__clipboard #main .keep__snippets .headline span {
+      font-size: 25px;
+    }
+
+    .theme__clipboard #main .keep__snippets .headline p {
+      font-size: 15px;
+    }
+
+    .theme__clipboard #main .keep__snippets .content {
+      flex-direction: column;
+    }
+
+    .theme__clipboard #main .keep__snippets .content .text .text-child {
+      align-items: center;
+    }
+
+    .theme__clipboard #main .keep__snippets .content .text .text-child p {
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .theme__clipboard #main .access__clipboard .headline span {
+      font-size: 25px;
+    }
+
+    .theme__clipboard #main .access__clipboard .headline p {
+      font-size: 15px;
+    }
+
+    .theme__clipboard #main .supercharge__workflow .headline span {
+      font-size: 25px;
+    }
+
+    .theme__clipboard #main .supercharge__workflow .headline p {
+      font-size: 15px;
+    }
+
+    .theme__clipboard #main .supercharge__workflow .content .detail {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .theme__clipboard #main .supercharge__workflow .content .detail .detail-child {
+      margin-bottom: 20px;
+    }
+
+    .theme__clipboard #main .brands {
+      margin-top: 100px;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .theme__clipboard #main .download .headline span {
+      font-size: 25px;
+    }
+
+    .theme__clipboard #main .download .headline p {
+      font-size: 15px;
+    }
+
+    .theme__clipboard #main .download .download-btns {
+      flex-direction: column;
+    }
+
+    .theme__clipboard #main .keep__snippets .content .text {
+      align-items: center;
+    }
+
     br.small {
         display: block;
     }
