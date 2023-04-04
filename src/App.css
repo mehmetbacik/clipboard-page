@@ -303,6 +303,7 @@ html, body {
 
 .theme__clipboard #main .supercharge__workflow .content .detail .detail-child img {
   margin-bottom: 30px;
+  min-height: 40px;
 }
 
 .theme__clipboard #main .supercharge__workflow .content .detail .detail-child span {
@@ -485,6 +486,26 @@ br.large {
 }
 
 @media (max-width: 991px) { 
+    .theme__clipboard #main .supercharge__workflow .content .detail .detail-child span {
+      font-size: 20px;
+    }
+
+    .theme__clipboard #main .supercharge__workflow .content .detail .detail-child p {
+      font-size: 14px;
+    }
+
+    .theme__clipboard #main .brands {
+      gap: 40px;
+    }
+
+    .theme__clipboard #footer .menu {
+      grid-template-columns: 1fr;
+    }
+
+    .theme__clipboard #footer .menu span {
+      text-align: center;
+    }
+
     br.large {
         display: none;
     }

@@ -53,17 +53,17 @@ function Main() {
                         </div>
                         <div className="content">
                             <div className="detail">
-                                <div className="detail-child">
+                                <div className="col col-12 col-md-4 col-lg-4 detail-child">
                                     <img src="img/icon-blacklist.svg" alt="img" />
                                     <span>Create blacklists</span>
                                     <p>Ensure sensitive information never makes its <br className="large" />way to your clipboard by excluding certain <br className="large" />sources.</p>
                                 </div>
-                                <div className="detail-child">
+                                <div className="col col-12 col-md-4 col-lg-4 detail-child">
                                     <img src="img/icon-text.svg" alt="img" />
                                     <span>Plain text snippets</span>
                                     <p>Remove unwanted formatting from copied text <br className="large" />for a consistent look.</p>
                                 </div>
-                                <div className="detail-child">
+                                <div className="col col-12 col-md-4 col-lg-4 detail-child">
                                     <img src="img/icon-preview.svg" alt="img" />
                                     <span>Sneak preview</span>
                                     <p>Quick preview of all snippets on your Clipboard <br className="large" />for easy access.</p>

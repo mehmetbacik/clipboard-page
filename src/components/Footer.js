@@ -5,12 +5,12 @@ function Footer() {
         <div id="footer">
             <div className="container-fluid">
                 <div className="row align-items-center">
-                    <div className="col col-12 col-lg-3">
+                    <div className="col col-12 col-lg-3 mb-5 mb-lg-0">
                         <div className="img">
                             <img src="img/logo.svg" alt="logo" />
                         </div>
                     </div>
-                    <div className="col col-12 col-lg-4">
+                    <div className="col col-12 col-lg-4 mb-5 mb-lg-0">
                         <div className="menu">
                             <span>FAQs</span>
                             <span>Privacy Policy</span>
